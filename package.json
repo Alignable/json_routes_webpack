@@ -1,0 +1,11 @@
+{
+  "name": "json_routes_webpack",
+  "version": "0.1.0",
+  "scripts": {
+    "postbump": "gem bump --no-commit -v `node -p -e \"require('./package.json').version\"`",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  }
+}
