@@ -2,8 +2,13 @@
   "name": "json_routes_webpack",
   "version": "0.1.0",
   "scripts": {
-    "postbump": "gem bump --no-commit -v `node -p -e \"require('./package.json').version\"`",
-    "release": "standard-version"
+    "release": "standard-version -a"
+  },
+  "standard-version": {
+    "scripts": {
+      "postbump": "gem bump --no-commit -v `node -p -e \"require('./package.json').version\"`",
+      "precommit": "git add -f lib/json_routes_webpack/version.rb"
+    }
   },
   "devDependencies": {
     "standard-version": "^4.2.0"
