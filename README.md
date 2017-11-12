@@ -1,3 +1,4 @@
+[![Gem Version][gem]][gem-url]
 [![test][test]][test-url]
 [![coverage][cover]][cover-url]
 
@@ -80,6 +81,9 @@ module.exports = environment;
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+[gem]: https://badge.fury.io/rb/json_routes_webpack.svg
+[gem-url]: https://badge.fury.io/rb/json_routes_webpack
 
 [test]: http://img.shields.io/travis/Alignable/json_routes_webpack.svg
 [test-url]: https://travis-ci.org/Alignable/json_routes_webpack
